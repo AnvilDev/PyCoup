@@ -1,3 +1,7 @@
+"""
+This file defines the actions that can be executed
+by cards and by players.
+"""
 #~~~Atomic Actions~~~
 
 def pay(conductor, target, amount):
@@ -34,25 +38,3 @@ def challenge(conductor, target, card):
         kill(conductor)
     else:
         kill(target)
-
-
-#~~~Card Actions~~~
-
-#General
-def coup(conductor, target):
-    """
-    Pay seven coins and launch a coup against an opponent, 
-    forcing that player to lose an influence.
-    """
-    pay(conductor, self.treasury, 7)
-    kill(target)
-
-
-def income(conductor):
-    """
-    Take one coin from the treasury.
-    """
-    pay(self.treasury, conductor, 1)
-
-
-#Classic

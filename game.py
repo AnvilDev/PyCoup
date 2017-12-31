@@ -1,5 +1,5 @@
 """
-This file deals with an instance of a game.
+This class deals with an instance of a game.
 """
 import cards
 
