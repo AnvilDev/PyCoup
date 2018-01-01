@@ -1,7 +1,7 @@
 """
 This class deals with an instance of a game.
 """
-import cards
+import cards.*
 
 
 class Game(object):
