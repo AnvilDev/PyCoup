@@ -19,14 +19,14 @@ def draw(conductor, target):
     if target.is_deck:
         conductor.hand.add(target.hand.pop())
     else:
-        conductor.hand.add(target.choose_card())
+        conductor.hand.add(target.give_card())
 
 
 def kill(target):
     """
     The basic action for killing a player's card.
     """
-    target.revealed.add(target.choose_card())
+    target.revealed.add(target.reveal_card())
 
 
 def challenge(conductor, target, card):

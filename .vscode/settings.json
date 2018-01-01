@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/usr/local/bin/python3"
+    "python.pythonPath": "C:\\Users\\avaldes\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe",
+    "python.linting.pylintEnabled": false
 }
